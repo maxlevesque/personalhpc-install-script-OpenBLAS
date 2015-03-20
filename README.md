@@ -1,6 +1,6 @@
 # personalhpc-install-script-OpenBLAS
 
-Install script to install the [OpenBLAS library](https://github.com/xianyi/OpenBLAS) from source on a PersonalHPC computer. 
+Install script for the [OpenBLAS library](https://github.com/xianyi/OpenBLAS) from source on a PersonalHPC computer. 
 It requires sudo access.
 
 ```bash
