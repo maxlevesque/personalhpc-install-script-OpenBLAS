@@ -1,11 +1,12 @@
 # personalhpc-install-script-OpenBLAS
 
 Install script for the [OpenBLAS library](https://github.com/xianyi/OpenBLAS) from source on a PersonalHPC computer. 
-It requires sudo access.
+It requires sudo access.  
+Copy-paste this line in your shell:
 
 ```bash
-git clone https://github.com/xianyi/OpenBLAS.git OpenBLAS
-cd OpenBLAS
-make DYNAMIC_ARCH=1 USE_THREAD=1  # compile for all possible cpu architectures and include multithreading
-sudo make PREFIX=/opt/OpenBLAS    # make the dir one wants 
+wget https://raw.githubusercontent.com/maxlevesque/personalhpc-install-script-OpenBLAS/master/personalhpc-install-script-OpenBLAS.sh && sh personalhpc-install-script-OpenBLAS.sh
 ```
+
+It will produce all library files into `/opt/OpenBLAS`.
+
